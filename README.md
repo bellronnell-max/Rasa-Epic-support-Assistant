@@ -1,3 +1,5 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/942c5a75-8d0e-492d-9f76-d46b64d45ecd" />
+
 # 🏥 Epic Clinical Support AI Assistant (Rasa Framework)
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
