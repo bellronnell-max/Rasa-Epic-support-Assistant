@@ -1,155 +1,109 @@
-# 🏥 Epic Clinical Support AI Assistant (Rasa Framework)
+🏥 Epic Clinical Support AI Assistant (Rasa Framework)
 
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Rasa](https://img.shields.io/badge/Rasa-Open%20Source-purple)
-![Healthcare](https://img.shields.io/badge/Healthcare-Epic-important)
-![Project](https://img.shields.io/badge/Project-Conversational%20AI-blueviolet)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
 
----
 
-A fully functional **Epic Support AI Assistant** built using the **Rasa** conversational AI framework.  
+
+
+
+
+
+
+
+
+
+A fully functional Epic Support AI Assistant built using the Rasa conversational AI framework.
 This assistant replicates the behavior of an Epic Go-Live support agent and provides real-time troubleshooting for common clinician issues inside the Epic EHR.
 
----
+🚀 Features
+✅ Epic Workflow Troubleshooting
 
-## 🚀 Features
+Supports real-world clinical issues such as:
 
-### ✅ Epic Workflow Troubleshooting
-The assistant supports multiple real-world clinical issues:
+Login Issues
 
-- **Login Issues**
-- **Password Resets**
-- **Orders Not Signing**
-- **Notes Not Saving**
-- **In Basket Messaging Problems**
-- **MAR/BCMA Barcode Scanning Issues**
-- **Printer / Label Printer Issues**
-- **Patient Lookup Failures**
-- **General Charting/Documentation Issues**
+Password Resets
 
-Each skill is built using:
-- Custom **intents**
-- Domain-specific **NLU training examples**
-- Structured **rules**
-- Detailed **response handling**
+Orders Not Signing
 
----
+Notes Not Saving
 
-## 🧠 Technology Stack
+In Basket Messaging Problems
 
-| Component | Description |
-|----------|-------------|
-| **Rasa Open Source** | NLU + Dialogue Management |
-| **Python 3.10** | Runtime environment |
-| **YAML** | Intent, rule, and domain configuration |
-| **ML Pipeline** | Intent classification + entity extraction |
-| **CLI Tools** | Model training & testing |
+MAR/BCMA Barcode Scanning Issues
 
----
+Printer / Label Printer Issues
 
-## 📁 Project Structure
+Patient Lookup Failures
 
+General Charting / Documentation Issues
+
+Powered by:
+
+Custom intents
+
+Domain-specific NLU examples
+
+Rule-based & story-based flows
+
+Detailed, realistic support responses
+
+🧠 Technology Stack
+Component	Description
+Rasa Open Source	NLU & Dialogue engine
+Python 3.10	Runtime environment
+YAML	Model config, intents, rules
+ML Pipeline	Intent classification / entity extraction
+CLI Tools	Training & testing
+📁 Project Structure
 Rasa-Epic-support-Assistant/
 │
 ├── actions/
 ├── data/
-│ ├── nlu.yml
-│ ├── rules.yml
-│ └── stories.yml
+│   ├── nlu.yml
+│   ├── rules.yml
+│   └── stories.yml
 ├── models/
 ├── domain.yml
 ├── config.yml
 └── credentials.yml
 
-
----
-
-## 🔧 Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/bellronnell-max/Rasa-Epic-support-Assistant.git
+🔧 Installation & Setup
+1️⃣ Clone the Repository
+git clone <your-repo-url>
 cd Rasa-Epic-support-Assistant
 
-Create a virtual environment (optional)
-
+2️⃣ Create & Activate Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-Install Rasa
-
+3️⃣ Install Rasa
 pip install rasa
 
-Train the Model
-
+4️⃣ Train the Model
 rasa train
 
-Run the Assistant
-
+5️⃣ Run the Assistant
 rasa shell
 
-Example Queries
+💬 Example Queries
 
-Try typing any of these inside rasa shell:
+You can ask the assistant:
 
-I can't log into Epic
-my orders are not signing
-my note won't save
-inbasket isn't working
-epic won't scan meds
-epic won't print
-can't find my patient
+"I can't log into Epic"
 
-SHORT DEMO (1-Minute Quick Test)
+"My orders are not signing"
 
-Start Rasa shell:
+"My note won't save"
 
-Then type:
+"Inbasket isn't working"
 
-I can't log into Epic
-my orders are not signing
-epic won't print
+"Epic won't scan meds"
 
-MEDIUM DEMO (Multiple Skills Demo)
+"Epic won't print"
 
-hello
-I can't log into Epic
-I forgot my Epic password
-my note won't save
-inbasket isn't working
-epic won't scan meds
-can't find my patient
+"Can't find my patient"
 
-FULL DEMO (Epic Go-Live Style Conversation)
-
-Paste this entire flow into rasa shell:
-
-hello
-my orders are not signing
-okay now my note isn’t saving
-I'm not receiving In Basket messages
-my barcode scanner isn’t scanning meds
-I can’t print labels from Epic
-I can’t find a newly registered patient
-thank you
-goodbye
-
-ADVANCED MULTI-INTENT DEMO
-
-hello
-I forgot my password
-now Epic still won't log me in
-okay I got in but now my orders won't sign
-and now my note won't save either
-can you help with barcode scanners
-I also need help printing labels
-I'm trying to look up a patient and nothing comes up
-thanks for the help
-goodbye
-
-Purpose of This Project
+🎯 Purpose of This Project
 
 This assistant demonstrates:
 
@@ -161,35 +115,33 @@ Domain-specific conversational logic
 
 Translating Epic support knowledge into AI behavior
 
-Real-world Epic troubleshooting embedded into an AI model
+Real-world troubleshooting embedded into AI models
 
-Designed for:
+Useful for:
 
-AI engineering portfolios
+AI Engineering portfolios
 
-Epic Support Specialist roles
+Epic Analyst or Support Specialist roles
 
 Healthcare IT job applications
 
 Conversational AI developer roles
 
-Author
+👤 Author
 
 Ronnell Bell
 Epic Support Specialist • AI Engineer • Rasa Developer
 📍 El Cajon, California
 📞 910-537-9058
 
-Future Enhancements
+🔮 Future Enhancements
 
-Add contextual follow-up questions
+Multi-step troubleshooting flows
 
-Multi-turn troubleshooting flows
+Contextual follow-up questions
 
-Web/GUI interface
+Web / GUI interface
 
-Deployment using Rasa X or Docker
+Deployment via Rasa X or Docker
 
-Integration with hospital helpdesk systems
-
-This project is licensed under the MIT License.
+Integration with hospital helpdesk APIs
