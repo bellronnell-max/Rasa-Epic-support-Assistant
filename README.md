@@ -68,40 +68,40 @@ Rasa-Epic-support-Assistant/
 └── credentials.yml
 
 🔧 Installation & Setup
-1️⃣ Clone the Repository
+Clone Repo
 git clone <your-repo-url>
 cd Rasa-Epic-support-Assistant
 
-2️⃣ Create & Activate Virtual Environment
+Create Environment
 python -m venv venv
 venv\Scripts\activate
 
-3️⃣ Install Rasa
+Install Rasa
 pip install rasa
 
-4️⃣ Train the Model
+Train Model
 rasa train
 
-5️⃣ Run the Assistant
+Run Assistant
 rasa shell
 
 💬 Example Queries
 
-You can ask the assistant:
+Try asking:
 
-"I can't log into Epic"
+“I can’t log into Epic”
 
-"My orders are not signing"
+“My orders are not signing”
 
-"My note won't save"
+“My note won’t save”
 
-"Inbasket isn't working"
+“Inbasket isn’t working”
 
-"Epic won't scan meds"
+“Epic won’t scan meds”
 
-"Epic won't print"
+“Epic won’t print”
 
-"Can't find my patient"
+“Can’t find my patient”
 
 🎯 Purpose of This Project
 
@@ -113,15 +113,15 @@ Rasa NLU/NLP engineering
 
 Domain-specific conversational logic
 
-Translating Epic support knowledge into AI behavior
+Epic support knowledge encoded into AI
 
-Real-world troubleshooting embedded into AI models
+Real-world troubleshooting via ML models
 
 Useful for:
 
 AI Engineering portfolios
 
-Epic Analyst or Support Specialist roles
+Epic Support Specialist roles
 
 Healthcare IT job applications
 
@@ -140,8 +140,8 @@ Multi-step troubleshooting flows
 
 Contextual follow-up questions
 
-Web / GUI interface
+Web-based UI
 
-Deployment via Rasa X or Docker
+Deployment using Rasa X or Docker
 
-Integration with hospital helpdesk APIs
+Integration with Helpdesk APIs
