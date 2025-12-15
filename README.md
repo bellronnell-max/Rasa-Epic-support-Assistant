@@ -10,6 +10,22 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
+## 🧠 Problem & Solution
+
+What problem does this bot solve?
+
+Reduces downtime by automating common epic troubleshooting questions. 
+
+Who is it for?
+
+Hospitals, Clinical staff, Providers, Military treatment facilities, healthcare IT teams. 
+
+Why is it better than a helpdesk ticket?
+
+
+It gives a immediate response that may not require a ticket and reduces IT workload so they can focus on more complex issues.
+
+
 
 A fully functional **Epic Support AI Assistant** built using the **Rasa** conversational AI framework.  
 This assistant replicates the behavior of an Epic Go-Live support agent and provides real-time troubleshooting for common clinician issues inside the Epic EHR.
