@@ -1,0 +1,18 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "deny",
+  "3": "epic_barcode_issue",
+  "4": "epic_help",
+  "5": "epic_inbasket_issue",
+  "6": "epic_login_issue",
+  "7": "epic_notes_issue",
+  "8": "epic_orders_issue",
+  "9": "epic_password_reset",
+  "10": "epic_patient_lookup_issue",
+  "11": "epic_printer_issue",
+  "12": "goodbye",
+  "13": "greet",
+  "14": "mood_great",
+  "15": "mood_unhappy"
+}

@@ -1,0 +1,176 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: epic_help
+  examples: |
+    - epic help
+    - I need help with Epic
+    - can you help me with Epic
+    - I need Epic support
+    - help with Epic workflows
+    - help with charting
+    - I need Epic help
+- intent: epic_login_issue
+  examples: |
+    - I can't log into Epic
+    - I cannot log in to Epic
+    - epic won't let me log in
+    - I keep getting a login error in Epic
+    - Epic says my login failed
+    - I'm locked out of Epic
+    - epic login issue
+
+- intent: epic_password_reset
+  examples: |
+    - I forgot my Epic password
+    - I need to reset my Epic password
+    - how do I reset my Epic password
+    - I changed my network password and Epic stopped working
+    - epic password problem
+    - epic password reset
+
+- intent: epic_orders_issue
+  examples: |
+    - my orders are not signing
+    - orders won't sign in Epic
+    - when I click sign nothing happens
+    - epic won't let me sign the orders
+    - sign button is not working in Epic
+    - orders disappear after I sign
+    - I'm having issues signing orders
+
+- intent: epic_notes_issue
+  examples: |
+    - my note won't save
+    - epic is not saving my note
+    - I can't sign my note
+    - documentation won't save in epic
+    - why won't my note save
+    - the note keeps failing to save
+    - save button not working in epic notes
+
+- intent: epic_inbasket_issue
+  examples: |
+    - my inbasket messages are not sending
+    - epic won't send messages
+    - messages stuck in inbasket
+    - my outbox won't send
+    - messages not going through in epic
+    - inbasket isn't working
+
+- intent: epic_barcode_issue
+  examples: |
+    - my barcode scanner isn't working in Epic
+    - epic won't scan meds
+    - MAR barcode not recognized
+    - BCMA scanner not responding
+    - barcode won't scan in epic
+    - scanning meds not working
+
+- intent: epic_printer_issue
+  examples: |
+    - epic won't print
+    - I can't print from Epic
+    - labels aren't printing
+    - printer not working in epic
+    - printing error in Epic
+    - wrong printer selected
+
+- intent: epic_patient_lookup_issue
+  examples: |
+    - I can't find my patient in Epic
+    - patient not showing up
+    - epic can't locate the patient
+    - search results empty in epic
+    - patient lookup isn't working
+    - can't find patient record
+

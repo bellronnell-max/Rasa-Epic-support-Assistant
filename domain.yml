@@ -1,0 +1,70 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - epic_help
+  - epic_login_issue
+  - epic_password_reset
+  - epic_orders_issue
+  - epic_notes_issue
+  - epic_inbasket_issue
+  - epic_barcode_issue
+  - epic_printer_issue
+  - epic_patient_lookup_issue
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_epic_help:
+  - text: "I can help you with Epic workflows, troubleshooting, user access issues, and charting support."
+
+  utter_epic_login_issue:
+  - text: "For Epic login issues: first confirm you can log into the hospital network (VPN or workstation). If the network works, close Epic completely, log out of Windows, log back in, and try again. If you still can’t log in, I recommend calling the Help Desk so they can check your account status."
+
+  utter_epic_password_reset:
+  - text: "For Epic password resets: Epic passwords usually follow your network or Active Directory password. Try resetting your network password using the hospital’s self-service portal or by calling the Help Desk. Once that is reset, log out of Windows, log back in, and then open Epic again."
+
+  utter_epic_orders_issue:
+    - text: "For orders not signing in Epic: first confirm the patient is still selected and you’re in the correct encounter. Check for any hard-stop warnings or missing required fields at the top or bottom of the screen. If the Sign button does nothing, try closing the workspace tab, reopening the patient, and re-entering the order. If multiple patients or orders are affected, contact the Help Desk so they can check for a system issue."
+
+  utter_epic_notes_issue:
+    - text: "For notes not saving in Epic: check for required fields or unsigned orders tied to the note. Look for warnings at the top or bottom of the screen. Try clicking Save and Stay, then Sign. If the note is locked, reopen the encounter. If it still fails to save, copy your text, close the note, reopen it, and paste it back in. Contact Help Desk if multiple users report the issue."
+ 
+  utter_epic_inbasket_issue:
+    - text: "For In Basket messages not sending: confirm you selected a recipient pool or individual. Look for yellow or red warnings in the message window. Make sure no required fields are missing. If messages are stuck in Outbox, log out and back in. If no messages will send, contact Help Desk to check system status or your mailbox configuration."
+
+  utter_epic_barcode_issue:
+    - text: "For MAR/BCMA barcode issues: ensure the scanner is powered on and paired with the workstation. Confirm the cursor is in the correct field before scanning. Try scanning another barcode to test. If Epic says 'barcode not recognized', verify order correctness or medication packaging. Restart the scanner if needed. Contact Help Desk if scanning fails across multiple devices."
+
+  utter_epic_printer_issue:
+    - text: "For printer problems in Epic: check that the correct default printer is selected. If printing labels, verify the label printer is configured in Epic Print Groups. Restart the printer and workstation. Make sure no print jobs are stuck in the queue. If Epic errors when printing, reselect the printer and try again. Contact Help Desk if printer mapping is incorrect."
+
+  utter_epic_patient_lookup_issue:
+    - text: "For patient lookup issues: verify correct spelling and DOB. Use fewer search fields to widen results. If the patient recently registered, wait a few minutes for the record to sync. Try MRN if available. If the patient still cannot be found, registration may not be complete—contact Registration or Help Desk."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

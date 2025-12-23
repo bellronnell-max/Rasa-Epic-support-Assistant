@@ -1,0 +1,60 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: respond to epic help
+  steps:
+    - intent: epic_help
+    - action: utter_epic_help
+
+- rule: respond to epic login issues
+  steps:
+    - intent: epic_login_issue
+    - action: utter_epic_login_issue
+
+- rule: respond to epic password reset
+  steps:
+    - intent: epic_password_reset
+    - action: utter_epic_password_reset
+
+- rule: respond to epic orders issue
+  steps:
+    - intent: epic_orders_issue
+    - action: utter_epic_orders_issue
+
+- rule: respond to notes not saving
+  steps:
+    - intent: epic_notes_issue
+    - action: utter_epic_notes_issue
+
+- rule: respond to epic inbasket issues
+  steps:
+    - intent: epic_inbasket_issue
+    - action: utter_epic_inbasket_issue
+
+- rule: respond to barcode issues
+  steps:
+    - intent: epic_barcode_issue
+    - action: utter_epic_barcode_issue
+
+- rule: respond to printer issues
+  steps:
+    - intent: epic_printer_issue
+    - action: utter_epic_printer_issue
+
+- rule: respond to patient lookup issue
+  steps:
+    - intent: epic_patient_lookup_issue
+    - action: utter_epic_patient_lookup_issue
+
+
