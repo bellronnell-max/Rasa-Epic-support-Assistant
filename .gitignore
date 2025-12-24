@@ -1,0 +1,11 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Rasa artifacts
+models/
+.rasa/
+
+# Env
+.env

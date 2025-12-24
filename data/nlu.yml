@@ -93,12 +93,17 @@ nlu:
 - intent: epic_help
   examples: |
     - epic help
-    - I need help with Epic
-    - can you help me with Epic
-    - I need Epic support
-    - help with Epic workflows
-    - help with charting
-    - I need Epic help
+    - i need epic support
+    - can you help with epic
+    - i need help with epic
+    - epic support please
+    - i have an epic question
+    - i need help in epic
+    - help me with epic
+    - epic assistance
+    - general epic help
+    
+
 - intent: epic_login_issue
   examples: |
     - I can't log into Epic
@@ -108,6 +113,14 @@ nlu:
     - Epic says my login failed
     - I'm locked out of Epic
     - epic login issue
+    - login screen won't accept my credentials
+    - epic says invalid username or password
+    - can't sign into hyperspace
+    - hyperspace login failed
+    - epic keeps looping back to login
+    - login token error
+    - authentication error in epic
+    - epic won't load after login
 
 - intent: epic_password_reset
   examples: |
@@ -117,7 +130,14 @@ nlu:
     - I changed my network password and Epic stopped working
     - epic password problem
     - epic password reset
-
+    - how do i change my epic password
+    - my password expired in epic
+    - i reset my password and now epic won't log in
+    - my epic password is locked
+    - i need a password reset for hyperspace
+    - can you reset my epic password
+    - password reset not working
+    - epic says my password is incorrect
 - intent: epic_orders_issue
   examples: |
     - my orders are not signing
@@ -127,7 +147,14 @@ nlu:
     - sign button is not working in Epic
     - orders disappear after I sign
     - I'm having issues signing orders
-
+    - orders are stuck in unsigned status
+    - i can't sign orders in order composer
+    - signing orders gives an error
+    - orders won't release
+    - i can't cosign an order
+    - the cosign button is missing
+    - meds orders won't sign
+    - my orders won't file
 - intent: epic_notes_issue
   examples: |
     - my note won't save
@@ -137,7 +164,14 @@ nlu:
     - why won't my note save
     - the note keeps failing to save
     - save button not working in epic notes
-
+    - my progress note won't sign
+    - i can't file my note
+    - note signing fails
+    - smarttext isn't inserting into my note
+    - smartphrase not working in note
+    - note template won't load
+    - i lost my note after closing
+    - my note is missing from the chart
 - intent: epic_inbasket_issue
   examples: |
     - my inbasket messages are not sending
@@ -146,7 +180,14 @@ nlu:
     - my outbox won't send
     - messages not going through in epic
     - inbasket isn't working
-
+    - my in basket is not loading
+    - in basket is blank
+    - i can't open an inbasket message
+    - inbasket is frozen
+    - pool messages not showing
+    - i can't route an inbasket message
+    - i can't send an inbasket message
+    - my inbasket queue is empty
 - intent: epic_barcode_issue
   examples: |
     - my barcode scanner isn't working in Epic
@@ -155,7 +196,14 @@ nlu:
     - BCMA scanner not responding
     - barcode won't scan in epic
     - scanning meds not working
-
+    - rover won't scan the barcode
+    - barcode scanner works outside epic but not in epic
+    - epic beeps but doesn't capture the barcode
+    - scanning at the mar is failing
+    - bcma barcode scan error
+    - medication scan won't accept
+    - wristband barcode not scanning
+    - rover scanner not responding
 - intent: epic_printer_issue
   examples: |
     - epic won't print
@@ -164,7 +212,14 @@ nlu:
     - printer not working in epic
     - printing error in Epic
     - wrong printer selected
-
+    - i can't print patient labels
+    - label printing failed
+    - it prints to the wrong printer
+    - i need to change my epic default printer
+    - print job stuck
+    - nothing happens when i click print
+    - epic prints blank pages
+    - my printer list is missing in epic
 - intent: epic_patient_lookup_issue
   examples: |
     - I can't find my patient in Epic
@@ -173,4 +228,11 @@ nlu:
     - search results empty in epic
     - patient lookup isn't working
     - can't find patient record
-
+    - i can't pull up the patient chart
+    - patient search returns no results
+    - epic says no patient found
+    - i can't open the chart even though i found the patient
+    - patient lookup is slow
+    - chart search isn't working
+    - i can't find the correct patient mrn
+    - patient name search not working
