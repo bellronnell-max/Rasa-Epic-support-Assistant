@@ -1,149 +1,34 @@
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/942c5a75-8d0e-492d-9f76-d46b64d45ecd" />
+# 🏥 Epic Clinical Support AI Assistant (Rasa)
 
-# 🏥 Epic Clinical Support AI Assistant (Rasa Framework)
-
-![Python](https://img.shields.io/badge/Python-3.10-blue)
-![Rasa](https://img.shields.io/badge/Rasa-Open%20Source-purple)
-![Healthcare](https://img.shields.io/badge/Healthcare-Epic-important)
-![Project](https://img.shields.io/badge/Project-Conversational%20AI-blueviolet)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-green)
-
----
-## 🧠 Problem & Solution
-
-What problem does this bot solve?
-
-Reduces downtime by automating common epic troubleshooting questions. 
-
-Who is it for?
-
-Hospitals, Clinical staff, Providers, Military treatment facilities, healthcare IT teams. 
-
-Why is it better than a helpdesk ticket?
-
-
-It gives a immediate response that may not require a ticket and reduces IT workload so they can focus on more complex issues.
-
-
-
-A fully functional **Epic Support AI Assistant** built using the **Rasa** conversational AI framework.  
-This assistant replicates the behavior of an Epic Go-Live support agent and provides real-time troubleshooting for common clinician issues inside the Epic EHR.
+A conversational AI assistant built with Rasa to help clinicians and healthcare staff troubleshoot common Epic EHR issues such as login failures, password resets, and charting problems — without accessing patient data.
 
 ---
 
-## 🚀 Features
+## What Problem This Solves
 
-### ✅ Epic Workflow Troubleshooting  
-Supports real-world clinical issues such as:
+Healthcare IT teams receive large volumes of repetitive Epic-related tickets that delay care and overwhelm support staff.
 
-- **Login Issues**  
-- **Password Resets**  
-- **Orders Not Signing**  
-- **Notes Not Saving**  
-- **In Basket Messaging Problems**  
-- **MAR/BCMA Barcode Scanning Issues**  
-- **Printer / Label Printer Issues**  
-- **Patient Lookup Failures**  
-- **General Charting / Documentation Issues**
+This assistant provides immediate first-line troubleshooting, reducing downtime and unnecessary helpdesk tickets.
 
 ---
 
-## 🧠 Technology Stack
+## What This Assistant Does
 
-| Component | Description |
-|----------|-------------|
-| **Rasa Open Source** | NLU & Dialogue engine |
-| **Python 3.10** | Runtime environment |
-| **YAML** | Model config, intents, rules |
-| **ML Pipeline** | Intent classification / entity extraction |
-| **CLI Tools** | Training & testing |
+- Troubleshoots common Epic issues (login, password, orders, notes, printing)
+- Asks clarifying questions instead of guessing
+- Uses fallback handling for out-of-scope requests
+- Avoids PHI and does not access Epic systems
 
 ---
 
-## 📁 Project Structure
+## Example Issues Supported
 
-Rasa-Epic-support-Assistant/
-│
-├── actions/
-├── data/
-│ ├── nlu.yml
-│ ├── rules.yml
-│ └── stories.yml
-├── models/
-├── domain.yml
-├── config.yml
-└── credentials.yml
-
-yaml
-Copy code
+- Epic login and access problems  
+- Password reset issues  
+- Orders not signing  
+- Notes not saving  
+- In Basket messaging issues  
+- Barcode scanning and printing issues  
 
 ---
 
-## 🔧 Installation & Setup
-
-### Clone the repository
-```bash
-git clone https://github.com/bellronnell-max/Rasa-Epic-support-Assistant.git
-cd Rasa-Epic-support-Assistant
-Create a virtual environment
-bash
-Copy code
-python -m venv venv
-venv\Scripts\activate
-Install Rasa
-bash
-Copy code
-pip install rasa
-Train the model
-bash
-Copy code
-rasa train
-Run the assistant
-bash
-Copy code
-rasa shell
-💬 Example Queries
-"I can’t log into Epic"
-
-"My orders are not signing"
-
-"My note won’t save"
-
-"Inbasket isn’t working"
-
-"Epic won’t scan meds"
-
-"Epic won’t print"
-
-"Can’t find my patient"
-
-🎯 Purpose of This Project
-This assistant demonstrates:
-
-Healthcare workflow automation
-
-Rasa NLU/NLP engineering
-
-Real-world medical support AI
-
-Translation of Epic troubleshooting into AI logic
-
-A strong AI engineering portfolio project
-
-👤 Author
-Ronnell Bell
-Epic Support Specialist • AI Engineer • Rasa Developer
-📍 El Cajon, California
-📞 910-537-9058
-
-🔮 Future Enhancements
-Multi-step troubleshooting flows
-
-Contextual follow-up questions
-
-Web UI
-
-Deployment via Docker or Rasa X
-
-Integration with Helpdesk ticketing APIs
