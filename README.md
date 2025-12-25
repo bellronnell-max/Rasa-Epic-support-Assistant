@@ -1,4 +1,5 @@
 # 🏥 Epic Clinical Support AI Assistant (Rasa)
+<img width="521" height="95" alt="image" src="https://github.com/user-attachments/assets/d92afe99-85b7-4935-947e-00d1d220368c" />
 
 A conversational AI assistant built with Rasa to help clinicians and healthcare staff troubleshoot common Epic EHR issues such as login failures, password resets, and charting problems — without accessing patient data.
 
