@@ -27,4 +27,7 @@ This assistant provides immediate first-line troubleshooting, reducing downtime 
 - In Basket messaging issues  
 - Barcode scanning and printing issues  
 
+## Future Enhancements
+
+- Microsoft Teams integration via Rasa REST API to provide in-workflow clinician support.
 
